@@ -5,17 +5,20 @@ import PicThis from '../assets/PictureThis.png';
 export const ProjectList = [
     {
         name: "Malloc",
-        image: Malloc
+        image: Malloc,
+        skills: "C"
 
     },
     {
         name: "Padding Split",
-        image: PadSplit
+        image: PadSplit,
+        skills: "JavaScript, React"
 
     },
     {
         name: "Picture This",
-        image: PicThis
+        image: PicThis,
+        skills: "Swift, Xcode, Firebase"
 
     }
     
