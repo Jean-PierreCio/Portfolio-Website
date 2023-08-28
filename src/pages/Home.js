@@ -8,12 +8,18 @@ function Home() {
   return (
     <div className= "home">
         <div className = "about">
-            <h2>Hi, My Name is Jean-Pierre Ciotta</h2>
+            <h2>Ciao, My Name is Jean-Pierre Ciotta</h2>
             <div className="prompt">
                 <p> A software developer with curiosity and passion!</p>
-                <LinkedInIcon />
+                <a href = "https://www.linkedin.com/in/jean-pierre-ciotta-530349225/" >
+                    <LinkedInIcon />
+                </a>
+
+                <a href = "https://github.com/Jean-PierreCio" >
+                    <GitHubIcon />
+                </a>
                 <EmailIcon />
-                <GitHubIcon />
+             
             </div>
         </div>
         <div className= "skills">
@@ -22,13 +28,20 @@ function Home() {
             <li className="item">
                 <h2>Languages</h2>
                 <span>
-                    C, Java
+                    <p>Strong: C, Java, Python </p>
+                    <p>Basic: SQL, C++, JavaScript, Swift, R, HTML, React</p>
+                </span>
+            </li>
+            <li className="item">
+                <h2>Design</h2>
+                <span>
+                    <p>OnShape, Solid Works, and Simplify 3D </p>
                 </span>
             </li>
             <li className="item">
                 <h2>Personal</h2>
                 <span>
-                    Soccer, gym
+                    Soccer(Calcio), Gym, Sailing, Biking, Rowing
                 </span>
             </li>
         </ol>

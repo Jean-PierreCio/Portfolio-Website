@@ -9,8 +9,22 @@ function Experience() {
   return (
     <div className = "experience">
       <VerticalTimeline lineColor="#3e497a"> 
+
+      <VerticalTimelineElement className="vertical-timeline-element--work"
+        date="2023"
+        iconStyle={{background: "#3E8E45", color: "fff"}}
+        icon={<WorkIcon/>}>
+        <h3 className="vertical-timeline-element-title">
+            Robolink | Software Engineer Intern
+        </h3>
+        <p>I had a variety of responsibilities at Robolink including programming a drone
+simulator using the Ursina engine to replicate the Aerial Drone Competition(ADC) environment, programming a
+virtual box that prevented drones to go outside boundaries while flying, testing new firmware updates for the
+drones, and much more.</p>
+        </VerticalTimelineElement>
+
         <VerticalTimelineElement className="vertical-timeline-element--work"
-        date="2021-2021"
+        date="2022"
         iconStyle={{background: "#3E8E45", color: "fff"}}
         icon={<WorkIcon/>}>
         <h3 className="vertical-timeline-element-title">
@@ -20,7 +34,7 @@ function Experience() {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement className="vertical-timeline-element--work"
-        date="2021-2021"
+        date="2022"
         iconStyle={{background: "#3E8E45", color: "fff"}}
         icon={<WorkIcon/>}>
         <h3 className="vertical-timeline-element-title">
@@ -30,7 +44,7 @@ function Experience() {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement className="vertical-timeline-element--education"
-        date="2021-2025"
+        date="2021- DEC 2024"
         iconStyle={{background: "#3e497a", color: "fff"}}
         icon={<SchoolIcon/>}>
         <h3 className="vertical-timeline-element-title">
