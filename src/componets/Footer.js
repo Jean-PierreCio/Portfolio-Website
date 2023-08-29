@@ -9,10 +9,16 @@ function Footer() {
   return (
     <div className="footer">
         <div className="socialMedia"> 
-            <LinkedInIcon />
-            <GitHubIcon />
+
+          <a href = "https://www.linkedin.com/in/jean-pierre-ciotta-530349225/" >
+                    <LinkedInIcon />
+          </a>
+          <a href = "https://github.com/Jean-PierreCio" >
+          <GitHubIcon />
+          </a>
+            
             <EmailIcon />
-            <InstagramIcon />
+            
         </div>
         <p> &copy; 2023 jpciotta.tech</p>
     </div>

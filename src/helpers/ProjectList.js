@@ -1,6 +1,7 @@
 import Malloc from '../assets/Malloc.png';
 import PadSplit from '../assets/PaddingSplit.png';
 import PicThis from '../assets/PictureThis.png';
+import PicThisGif from '../assets/PT.gif';
 
 export const ProjectList = [
     {
@@ -17,7 +18,7 @@ export const ProjectList = [
     },
     {
         name: "Picture This",
-        image: PicThis,
+        image: PicThisGif,
         skills: "Swift, Xcode, Firebase"
 
     }
